@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portafolio de Vianey</title>
+    <style>
+                /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos generales para los encabezados */
+        h1, h2 {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        }
+
+        /* Estilos para la sección de inicio */
+        #inicio {
+        padding: 50px;
+        background-color: #2F75B5;
+        color:#fff;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 2em;
+        } 
+
+        #inicio img {
+        width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+        height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+        border-radius: 50%; /*Opcional: agregar bordes redondeados a la imagen */
+        }
+
+        /* Estilos para las secciones */
+        /* Estilos para la sección de biografía */
+        #biografia {
+        padding: 50px;
+        background-color: #003049;
+        color: #fff;
+        }
+
+        /* Estilos para la lista de biografía */
+        #biografia ul {
+        list-style-type: none;
+        }
+
+        /* Estilos para la sección de habilidades */
+        #habilidades {
+        padding: 50px;
+        background-color: #2E4F6E;
+        color: #fff;
+        }
+        /* Estilos para la lista de habilidades */
+        #habilidades ul {
+        list-style-type: none;
+        }
+
+        /* Estilos para la sección de proyectos */
+        #proyectos {
+        padding: 50px;
+        background-color: #2D5F92;
+        color: #fff;
+        }
+
+        /* Estilos para la lista de proyectos */
+        #proyectos ul {
+        list-style-type: none;
+        }
+
+        /* Estilos para la sección de contacto */
+        #contacto {
+        padding: 50px;
+        background-color: #3498db;
+        color: #fff;
+        }
+
+        /* Estilos generales para la lista de contacto */
+        #contacto ul {
+        list-style-type: none;
+        }
+
+        /* Estilos generales para los párrafos y listas */
+        p, ul {
+        font-family: Arial; sans-serif;
+        font-size: 16px;
+        color: #f8f8f8;
+        }
+        
+
+        /* Estilos para el enlace de correo electrónico */
+        {
+            color: #FFFFF8db;
+            text-decoration: none;
+        }
+
+        /* Estilos para enlaces */
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+    <link rel=""stylesheet" href=""estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+    </header>
+    
+    <!--Sección de inicio-->
+    <section id="inicio">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-
+        4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="imagen
+        de cabecera">
+            <h1>Vianey Zapata</h1>
+            <p>Breve descripción sobre mí y mis intereses profesionales</p>
+    </section>
+
+
+
+    <!--Sección de biografía-->
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>
+            Soy Vianey, una apasionada por la longevidad, el antienvejecimiento y la calidad de vida. Mi trabajo se centra en el ámbito administrativo, pero mi verdadera pasión es aprender sobre nutrición y marketing digital. Mis objetivos a mediano y largo plazo incluyen crear una tienda online, convertirme en experta en marketing digital y disfrutar de excelente salud para vivir más de 90 años. Además, estoy trabajando en un plan de retiro que me permita seguir activa, incluso después de los 70 años, y conseguir una actividad remunerada en línea.
+        </p>
+    </section>
+
+    <!-- Sección de habilidades-->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Marketing Digital</li>
+            <li>Nutrición</li>
+            <li>Otras habilidades relevantes</li>
+            <!-- Agrega más habilidades aquí -->
+        </ul>
+    </section>
+
+    <!--Sección de proyectos-->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Nombre del Proyecto 1</li>
+            <li>Nombre del Proyecto 2</li>
+            <li>Nombre del Proyecto 3</li>
+            <!-- Puedes agregar más proyectos aquí-->
+        </ul>
+        
+        <p>
+            Aquí puedes listar algunos de tus proyectos pasados o actuales relacionados con marketing digital, nutrición o cualquier otro campo de tu interés.
+        </p> 
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+            Puedes contactarme a través de los siguientes medios;  </p>
+            <ul>
+                <li>Email: vianeyzapata@gmail.com</li>
+                <li>Teléfono:  1527444483830</li>
+                <li>Redes sociales: Plataforma X @vzapata13</li>
+            </ul>
+    </section>
+
+    <!-- Puedes agreagra más secciones según tus necesidades -->-->
+</body>
+</html>
